@@ -9,6 +9,6 @@ export default () => {
         <Header/>
         <Main/>
         <Footer/>
-        <h1>Goryunov Blog!</h1>
+        {/* <h1>Goryunov Blog!</h1> */}
     </>
 }
