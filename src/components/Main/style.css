@@ -1,4 +1,6 @@
-main {
+main { /*display: flex;*/
+    /* justify-content: center; */
+    /* align-items: center; */
     min-height: calc(100vh - 180px);
     padding: 30px;
 }
@@ -12,4 +14,24 @@ h1 {
         padding-left: calc(50% - 600px);
         padding-right: calc(50% - 600px);
     }
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.post {
+    box-shadow: 0 0 5px 0 #0003;
+    border-radius: 10px;
+    padding: 20px;
+    transition-property: transform, box-shadow;
+    transition-duration: .5s;
+    font-size: 20px;
+    background: no-repeat center / cover;
+}
+.post:hover{
+    box-shadow: 0 0 5px 0 #0003, 0 0 15px 0 #0003;
+    transform: scale(1.01, 1.01);
+    font-size: 20px;
 }
