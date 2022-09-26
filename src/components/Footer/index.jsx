@@ -7,10 +7,11 @@ export default () => {
             &copy;{new Date().getFullYear()}
         </span>
         <span> Made by&nbsp;
-            <a href="https://github.com/Goryunov1" 
-                className="footer_autor"
+            <a 
+                href="https://github.com/lekso4ka" 
+                className="footer__author"
                 target="_blank"
-            >Alex</a>
+            >Leksa</a>
         </span>
     </footer>
 }
