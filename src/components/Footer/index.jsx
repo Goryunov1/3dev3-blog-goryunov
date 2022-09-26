@@ -8,10 +8,10 @@ export default () => {
         </span>
         <span> Made by&nbsp;
             <a 
-                href="https://github.com/lekso4ka" 
+                href="https://github.com/Goryunov1" 
                 className="footer__author"
                 target="_blank"
-            >Leksa</a>
+            >Goryunov</a>
         </span>
     </footer>
 }
