@@ -51,7 +51,7 @@ export default ({state, auth, updState}) => {
             }
         }        
     }
-
+    const changeAuthType = e 
     return <div className="modal__container" style={{
         display: state ? "flex" : "none"
     }}>
@@ -105,6 +105,7 @@ export default ({state, auth, updState}) => {
                 setPwd("");
                 setPwd2("");
             }}>close</button>
+            <button></button>
         </div>
     </div>
 }
